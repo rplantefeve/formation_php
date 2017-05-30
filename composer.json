@@ -1,0 +1,13 @@
+{
+    "name": "vendor/formation",
+    "description": "Description of project Formation.",
+    "authors": [
+        {
+            "name": "Seme formation",
+            "email": "contact@semeformation.fr"
+        }
+    ],
+    "require": {
+        "econea/nusoap": "v0.9.5.1"
+    }
+}

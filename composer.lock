@@ -1,0 +1,61 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "dcc3c038f443201c931385d6a37152be",
+    "content-hash": "8672e647ac6d437146f4ea94a2536797",
+    "packages": [
+        {
+            "name": "econea/nusoap",
+            "version": "v0.9.5.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/econea/nusoap.git",
+                "reference": "3f066b33e1c4054f6e2b4ea9dfe30e545b235e89"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/econea/nusoap/zipball/3f066b33e1c4054f6e2b4ea9dfe30e545b235e89",
+                "reference": "3f066b33e1c4054f6e2b4ea9dfe30e545b235e89",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPLv2"
+            ],
+            "authors": [
+                {
+                    "name": "Milan Felix Sulc"
+                },
+                {
+                    "name": "Martin Macejkou Mates"
+                }
+            ],
+            "description": "NuSOAP fixed for PHP 5.5 - 7.0",
+            "keywords": [
+                "nusoap",
+                "soap"
+            ],
+            "time": "2016-03-01 10:47:07"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
