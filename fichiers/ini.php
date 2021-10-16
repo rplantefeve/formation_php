@@ -7,9 +7,9 @@ print_r($ini_array);
 // Parse avec les sections
 $ini_array = parse_ini_file("exemple.ini", true);
 print_r($ini_array);
-//Array ( 
-//    [debug] => Array ( 
-//        [extension] => xdebug 
-//        [level] => 3 ) 
-//    [exceptions] => Array ( 
+//Array (
+//    [debug] => Array (
+//        [extension] => xdebug
+//        [level] => 3 )
+//    [exceptions] => Array (
 //        [exception_level] => 2 ) )
