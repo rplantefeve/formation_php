@@ -1,13 +1,17 @@
 {
-    "name": "vendor/formation",
-    "description": "Description of project Formation.",
-    "authors": [
-        {
-            "name": "Seme formation",
-            "email": "contact@semeformation.fr"
-        }
-    ],
-    "require": {
-        "econea/nusoap": "v0.9.5.1"
+  "name": "vendor/formation",
+  "description": "Description of project Formation.",
+  "authors": [
+    {
+      "name": "Seme formation",
+      "email": "contact@semeformation.fr"
     }
+  ],
+  "require": {
+    "econea/nusoap": "v0.9.5.1"
+  },
+  "require-dev": {
+    "phpmd/phpmd": "@stable",
+    "friendsofphp/php-cs-fixer": "^3.2"
+  }
 }

@@ -8,3 +8,7 @@ vendor/
 nbproject/
 
 .vscode/
+
+.php-cs-fixer.php
+
+rest/config/parameters.ini
