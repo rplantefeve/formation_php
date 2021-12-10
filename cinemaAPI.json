@@ -1,0 +1,28 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "cinemaAPI",
+    "license": {
+      "name": "GPL-3.0"
+    }
+  },
+  "servers": [
+    {
+      "url": "http://api.local"
+    }
+  ],
+  "paths": {
+    "/read.php": {
+      "get": {
+        "summary": "Get movies",
+        "description": "List all movies",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    }
+  }
+}
