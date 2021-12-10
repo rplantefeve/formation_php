@@ -31,7 +31,7 @@ class Database
     {
         $this->conn = null;
         try {
-            $this->conn = new PDO($this->driver .':host=' . $this->host . ';port='. $this->port .'dbname=' . $this->dbName.";options='--client_encoding=UTF8'", $this->username, $this->password);
+            $this->conn = new PDO($this->driver .':host=' . $this->host . ';port='. $this->port .';dbname=' . $this->dbName.";options='--client_encoding=UTF8'", $this->username, $this->password);
             $this->conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             $this->conn->exec("SET NAMES 'UTF8'");
         } catch (PDOException $exception) {
