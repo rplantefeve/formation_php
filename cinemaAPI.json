@@ -23,6 +23,27 @@
           }
         }
       }
+    },
+    "/readById.php?id={id}": {
+      "get": {
+        "description": "Get movie informations by its id",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "description": "The movie ID",
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
     }
   }
 }

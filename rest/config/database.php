@@ -23,7 +23,6 @@ class Database
             $this->password = $infosConnexion['database_password'];
         } catch(Exception $e) {
             echo 'Something wrong with the config: '. $e->getMessage();
-            exit;
         }   
     }
 
@@ -36,7 +35,6 @@ class Database
             $this->conn->exec("SET NAMES 'UTF8'");
         } catch (PDOException $exception) {
             echo 'Database could not be connected: ' . $exception->getMessage();
-            exit;
         }
 
         return $this->conn;
